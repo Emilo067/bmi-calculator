@@ -28,7 +28,7 @@ const BMI = () => {
                             Индекс массы тела (ИМС) = {bmiValue}
                         </div>
                         <div className={`bmi-category ${bmiCategory.class}`}>
-                            {bmiCategory.text}
+                            {bmiCategory.text ? bmiCategory.text : 'Укажите данные для анализа ИМС'}
                         </div>
                     </div>
                 </div>
