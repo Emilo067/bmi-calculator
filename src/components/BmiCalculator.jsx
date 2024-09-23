@@ -80,7 +80,7 @@ const BmiCalculator = (props) => {
         <>
             <div className="bmi-inputs">
                 <div className="inputs-fields">
-                    <div>
+                    <div className="select-container">
                         <span className="label-unit">
                             Единицы измерения
                         </span>
