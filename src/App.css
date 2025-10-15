@@ -3,6 +3,7 @@
 body {
   background: #000000;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 .App {
